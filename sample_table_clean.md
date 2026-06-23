@@ -1,0 +1,7 @@
+| Comment (truncated) | Predicted | Confidence | True | Note |
+|---|---|---|---|---|
+| "They underestimated the opponent, after 1st goal they slowed down, Congo got a hold of the game…" | analysis | 0.65 | reaction | Wrong — reads as a play-by-play recap (description), but the model saw the causal "because/then" structure and called it analysis. |
+| "I agree, but also get Ronaldo's old ass off the field" | hot_take | 0.62 | reaction | Wrong — an emotional in-the-moment quip the model read as a standing opinion. |
+| "Lonaldo will hold them back again big time" | reaction | 0.57 | hot_take | Wrong — standing verdict misread as a reaction (the dominant error pattern). |
+| "Games from the first two match days aren't good examples as no team can be eliminated before a second match… both teams have a strong incentive to play out a bore draw, because with 4 points Paraguay will progress from third. Morocco vs Haiti is another — Haiti are already out…" | analysis | 0.78 | analysis | **Correct, and reasonable because** it reasons from the tournament rules to specific consequences (with 4 points a team progresses from third; Haiti already eliminated) — evidence doing real argumentative work, exactly what the `analysis` label is meant to capture. |
+| "There was no passion at all" | reaction | 0.40 | reaction | Correct — a short, in-the-moment impression of the match with no argument behind it. The low confidence (0.40) is itself telling: the model is unsure but still lands in the right class. |
