@@ -241,8 +241,8 @@ notebook using the snippet below.
 | "I agree, but also get Ronaldo's old ass off the field" | hot_take | 0.62 | reaction | Wrong — an emotional in-the-moment quip the model read as a standing opinion. |
 | "Lonaldo will hold them back again big time" | reaction | 0.57 | hot_take | Wrong — standing verdict misread as a reaction (the dominant error pattern). |
 | _[ Games from the first two match days are not good examples as no team can be eliminated before theyâ€™ve played a second match. Itâ€™s the third match day where weâ€™ll see how things have changed. Australia vs Paraguay is a good example. Under the old format, Paraguay would have to play to win. But under this format, both teams have a very strong incentive to just play out a bore draw, because with 4 points Paraguay will progress from third. Morocco vs Haiti is another. Haiti are already out. Under the old format, Morocco had to play to win to make sure they didnâ€™t get pipped by Scotland. But under this format, they can play a fully rotated squad, and even if they happen to lose and Scotland shock Brazil they will still progress from third with 4 points.
- ]_ | analysis | _[conf=0.78  | analysis  | | **Correct, and reasonable because** it cites a statistical point (because with 4 points Paraguay will progress from third. Morocco vs Haiti is another. Haiti are already out.)— exactly the evidence-backed claim the `analysis` label is meant to capture. |
-| _[There was no passion at all]_ | reaction | _[ conf=0.40 ]_ | reaction | Correct — because it is a short emotional response to a match moment with no argument. |
+ ] | analysis | 0.78  | analysis   | **Correct, and reasonable because** it cites a statistical point (because with 4 points Paraguay will progress from third. Morocco vs Haiti is another. Haiti are already out.)— exactly the evidence-backed claim the `analysis` label is meant to capture. |
+| _[There was no passion at all]_ | reaction | 0.40  | reaction | Correct — because it is a short emotional response to a match moment with no argument. |
 
 
 ---
